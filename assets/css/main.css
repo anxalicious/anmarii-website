@@ -3823,8 +3823,20 @@ input, select, textarea {
 
 			}
 
+		#main .challenge-title {
+			font-size: 2.5rem;
+		}
+
+			@media screen and (max-width: 736px) {
+
+				#main .challenge-title {
+					font-size: 2rem;
+				}
+
+			}
+
 		#main .challenge-meta {
-			font-size: 0.9rem;
+			font-size: 1rem;
 			line-height: 1.75;
 			margin-bottom: 1.5rem;
 		}
@@ -3840,6 +3852,18 @@ input, select, textarea {
 			#main .challenge-meta .star-empty {
 				color: #717981;
 			}
+
+			@media screen and (max-width: 736px) {
+
+				#main .challenge-meta {
+					font-size: 0.9rem;
+				}
+
+			}
+
+		#main .challenge-description {
+			width: 100%;
+		}
 
 		#main > .posts {
 			display: -moz-flex;
