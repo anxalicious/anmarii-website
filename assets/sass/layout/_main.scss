@@ -73,6 +73,24 @@
 			}
 		}
 
+		.challenge-meta {
+			font-size: 0.9rem;
+			line-height: 1.75;
+			margin-bottom: (_size(element-margin) * 0.75);
+
+			.difficulty-stars {
+				white-space: nowrap;
+			}
+
+			.star-filled {
+				color: _palette(accent);
+			}
+
+			.star-empty {
+				color: _palette(alt, fg);
+			}
+		}
+
 		> .posts {
 			@include fixed-grid((
 				columns:			2,

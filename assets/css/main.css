@@ -3823,6 +3823,24 @@ input, select, textarea {
 
 			}
 
+		#main .challenge-meta {
+			font-size: 0.9rem;
+			line-height: 1.75;
+			margin-bottom: 1.5rem;
+		}
+
+			#main .challenge-meta .difficulty-stars {
+				white-space: nowrap;
+			}
+
+			#main .challenge-meta .star-filled {
+				color: #34ffff;
+			}
+
+			#main .challenge-meta .star-empty {
+				color: #717981;
+			}
+
 		#main > .posts {
 			display: -moz-flex;
 			display: -webkit-flex;
