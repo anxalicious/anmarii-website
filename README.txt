@@ -1,32 +1,50 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Mazely
+Cybersecurity Learning Platform
 
+Mazely is a fictional educational project that introduces practical digital
+safety topics through interactive cybersecurity game concepts. The games are
+currently in development; the site provides introductory information and
+challenge descriptions.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+Pages:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+	Home (index.html):
+		Introduces Mazely and presents its four cybersecurity challenges.
 
-(* = not included)
+	Challenges (challenges.html):
+		Describes the learning goals, format, difficulty, and intended age range
+		for each game concept.
 
-AJ
-aj@lkn.io | @ajlkn
+	About (about.html):
+		Explains Mazely's educational purpose and approach.
 
+Project files:
 
-Credits:
+	assets/css/:
+		Compiled stylesheets used by the pages.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	assets/sass/:
+		Sass source for the site's layout, components, and theme.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+	assets/js/:
+		Scripts for responsive navigation, scrolling, and visual effects.
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+	images/:
+		Background and challenge imagery used by the site.
+
+Credits and license:
+
+	Mazely is adapted from Massively by HTML5 UP, designed by AJ (@ajlkn).
+	HTML5 UP: html5up.net
+	Free for personal and commercial use under the Creative Commons
+	Attribution 3.0 Unported license: html5up.net/license
+
+	Keep the HTML5 UP attribution in the site footer. The complete license is
+	provided in LICENSE.txt.
+
+	Original template credits:
+		Demo images: Unsplash (unsplash.com)
+		Icons: Font Awesome (fontawesome.io)
+		jQuery: jquery.com
+		Scrollex: github.com/ajlkn/jquery.scrollex
+		Responsive Tools: github.com/ajlkn/responsive-tools
