@@ -107,6 +107,19 @@
 			width: 100%;
 		}
 
+		.challenge-actions {
+			@include vendor('align-items', 'center');
+			@include vendor('display', 'flex');
+			@include vendor('justify-content', 'flex-end');
+			margin-top: 1.5rem;
+
+			.coming-soon {
+				color: _palette(alt, fg);
+				font-size: 0.75rem;
+				margin-right: 1rem;
+			}
+		}
+
 		> .posts {
 			@include fixed-grid((
 				columns:			2,
